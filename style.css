@@ -1,127 +1,82 @@
-*
-{
+
+
+*{
     margin: 0;
     padding: 0;
+    font-family: Century Gothic;
 }
 
-body
-{
-    font-family: monospace;
+header{
+    background: linear-gradient(135deg,rgb(74,13,143) 0%, rgba(250,42,143) 100%);
+    height: 100vh;
 }
-.row
-{
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    padding: 5px 0.2px;
+    transition: 0.5s ease;
+}
+
+ul li a.hover{
+    color: rgba(255,255,255,0.75);
+}
+
+ul li a.active{
+    border-bottom: 2px solid #cd99d4;
+    color: #fff;
+}
+
+ul li a.start,a.login,a.faqs,a.contacts{
+    border: 1px solid #fff;
+    padding: 2px 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+ul li a.start.hover,a.login.hover,a.faqs.hover,a.contacts.hover{
+    background-color: #fff;
+    color: purple;
+}
+
+.logo img{
+    float: left;
+    position: absolute;
+    top: 27px;
+}
+
+.main{
     max-width: 1200px;
     margin: auto;
 }
 
-.main-nav
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-}
-.main-nav li
-{
-    display: inline-block;
-}
-
-.main-nav li.active a
-{
-    border: 1px solid white;
-    
-}
-
-.main-nav li a:hover
-{
-    border: 1px solid white;
-}
-
-
-.main-nav li a
-{
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-}
-
-.hero
-{
+.title{
     position: absolute;
-    width: 1200px;
-    margin-left: 0px;
-    margin-top: 0px;
-    
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
+.title h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
 
-h1
-{
-    color: white;
-    text-transform: uppercase;
-    font-size: 70px;
+.title p{
+    color: #ffb8f6;
+    font-size: 18px;
     text-align: center;
-    margin-top: 275px;
-    
 }
-header
-{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-.button
-{
-    margin-top: 30px;
-    margin-left: 440px;
-}
-
-.btn
-{
-    border: 1px solid white;
-    padding: 10px 30px;
-    color: white;
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
-}
-.btn-one
-{
-    background-color: navy;
-    font-family: "Roboto", sans-serif;
-}
-
-.btn-two
-{
-    font-family: "Roboto", sans-serif;
-}
-
-
-.btn-two:hover
-{
-    background-color: navy;
-    transition: all 0.5s ease-in;
-    
-        
-}
-
-.logo img
-{
-    width: 150px;
-    height: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
