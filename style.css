@@ -36,14 +36,14 @@ ul li a.active{
     color: #fff;
 }
 
-ul li a.start,a.login,a.faqs,a.contacts{
+ul li a.start, a.login, a.faqs, a.contacts{
     border: 1px solid #fff;
     padding: 2px 20px;
     border-radius: 3px;
     color: #fff;
 }
 
-ul li a.start.hover,a.login.hover,a.faqs.hover,a.contacts.hover{
+ul li a.start.hover, a.login.hover, a.faqs.hover, a.contacts.hover{
     background-color: #fff;
     color: purple;
 }
